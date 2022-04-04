@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yellow Belt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <h1>GamingDojo</h1>
+      <div class="right">
+        <h2><button class="euro">Euro €</button></h2>
+        <img src="cart-light.png" alt="shoppingcart">
+        <h2 id="two">2</h2>
+        <img src="search-light.png" alt="search">
+      </div>
+    </div>
+  </nav>
+  <main>
+    <h3 class="highlight">Highlights</h3>
+    <div class="top">
+      <img onclick="switchimgpixel(this)" id="leftimg" src="chevron-left.png" alt="leftchevron">
+      <img id="img2switch" src="pixel-ninjas-2.png" alt="pixel ninjas">
+      <img onclick="switchimgstone(this)" id="rightimg" src="chevron-left.png" alt="rightchevron">
+    </div>
+  
+    
+    <div class="bottom">
+      <div class="blocks">
+        <img class="blockimg" src="cafe-neko.png" alt="cafe neko">
+        <h3 class="title">Cafe Neck: Gold Edition</h3>
+        <img class="WA" src="windows.png" alt="windows">
+        <img class="WA" src="apple.png" alt="apple">
+        <div class="bottombuttons">
+          <button class="purple">-20%</button>
+          <div>
+            <p class="strickout">€14.98</p>
+            <p class="bold"> €10.49</p>
+          </div>
+          <button onclick="add(this)" class="buy">buy</button>
+        </div>
+      </div>
+  
+      <div class="blocks">
+        <img class="blockimg" src="pixel-ninjas-2.png" alt="pixelninjas">
+        <h3 class="title">Pixel Ninjas 2</h3>
+        <img class="WA" src="windows.png" alt="windows">
+        <img class="WA" src="apple.png" alt="apple">
+        <div class="bottombuttons">
+          <button class="purple">-10%</button>
+          <div>
+            <p class="strickout">€8.19</p>
+            <p class="bold">€7.39</p>
+          </div>
+          <button onclick="add(this)" class="buy">buy</button>
+        </div>
+      </div>
+  
+      <div class="blocks">
+        <img class="blockimg" src="stonepunk.png" alt="stonepunk">
+        <h3 class="title">Stonepunk 10000 BCE</h3>
+        <img class="WA" src="windows.png" alt="windows">
+        <img class="WA" src="apple.png" alt="apple">
+        <img class="WA" onclick="message(this)" src="linux.png" alt="penguin">
+        <div class="bottombuttons">
+          <button class="purple">NEW</button>
+          <p class="bold">€19.99</p>
+          <button onclick="add(this)" class ="buy">buy</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
